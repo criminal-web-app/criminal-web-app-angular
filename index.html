@@ -2,10 +2,19 @@
 <html>
 <head>
 	<title></title>
-	<script type="text/javascript" src="<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>"></script>
-<body>
 
+<body >
 
+<div ng-app="userApp">
+	<div ng-include="'views/user/registerUser.html'" ng-controller="registerUserController">
+		
+	</div>	
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+<script type="text/javascript" src="controllers/userController.js"></script>
+
+<!-- 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.js"></script> -->
 
 </body>
 </html>
